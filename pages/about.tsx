@@ -1,4 +1,6 @@
 /* eslint-disable prettier/prettier */
+
+
 import clsx from "clsx";
 import { GetServerSideProps } from "next";
 import { ComponentProps, ReactNode } from "react";
@@ -16,6 +18,8 @@ interface FeatureProps extends Omit<ComponentProps<"div">, "title"> {
   title: ReactNode;
 }
 
+
+
 function Feature({ title, description, className, ...props }: FeatureProps) {
   return (
     <div className={clsx(className, styles.featuresFeature)} {...props}>
@@ -31,30 +35,28 @@ export default function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;domain using <a href="https://www.contrib.com">Contrib</a> + LiveBlocks
+            About ContribNetwork
           </h1>
           <p className={styles.heroLead}>
-            Use Contrib Liveblocks Starter Kit to build your document-based
-            collaborative website in&nbsp;minutes and earn tokens for every contribution.
+          Join the <a href="https://www.contrib.com">Contrib Network</a> and be part of a global community of entrepreneurs, developers, designers, marketers, and specialists. Contribute to high-growth companies and exciting opportunities worldwide. 
+          Discover the future of work and unleash your potential. Sign up now!
           </p>
         </div>
         <div className={styles.heroActions}>
-          <Button icon={<SignInIcon />} onClick={() => signIn()}>
-            Sign in
-          </Button>
+          
           <LinkButton
-            href="/about"
+            href="https://www.contrib.com"
             target="_blank"
             variant="secondary"
           >
-            📖Learn more
+            📖Learn more about Contrib
           </LinkButton>
           <LinkButton
-            href="https://github.com/maidabarrientos/contribliveblocksv2"
+            href="http://domaindirectory.com/servicepage/?domain=contribnetwork.com"
             target="_blank"
-            variant="secondary"
+            variant="primary"
           >
-            🥢Get The Code
+            Contact Contribnetwork.com
           </LinkButton>
         </div>
       </Container>
