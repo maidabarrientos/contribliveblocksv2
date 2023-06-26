@@ -31,11 +31,11 @@ export default function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;domain using Contrib + LiveBlocks
+            Kickstart your collaborative&nbsp;domain using <a href="https://www.contrib.com">Contrib</a> + LiveBlocks
           </h1>
           <p className={styles.heroLead}>
-            Use the Liveblocks Starter Kit to build your document-based
-            collaborative app in&nbsp;minutes.
+            Use Contrib Liveblocks Starter Kit to build your document-based
+            collaborative website in&nbsp;minutes and earn tokens for every contribution.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -43,11 +43,18 @@ export default function Index() {
             Sign in
           </Button>
           <LinkButton
-            href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
+            href="/about"
             target="_blank"
             variant="secondary"
           >
             Learn more
+          </LinkButton>
+          <LinkButton
+            href="https://github.com/maidabarrientos/contribliveblocksv2"
+            target="_blank"
+            variant="secondary"
+          >
+            Get The Code
           </LinkButton>
         </div>
       </Container>

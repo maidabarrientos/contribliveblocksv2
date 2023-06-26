@@ -16,12 +16,12 @@ export function Badge({
     >
       <picture>
         <source
-          srcSet="https://liveblocks.io/badge-dark.svg"
+          srcSet="https://vnoclogos.s3-us-west-1.amazonaws.com/contribliveblocks%20badge.svg"
           media="(prefers-color-scheme: dark)"
         />
         <img
-          src="https://liveblocks.io/badge-light.svg"
-          alt="Made with Liveblocks"
+          src="https://vnoclogos.s3-us-west-1.amazonaws.com/contribliveblocks%20badge.svg"
+          alt="Made with Liveblocks + Contrib"
           className={styles.image}
         />
       </picture>
