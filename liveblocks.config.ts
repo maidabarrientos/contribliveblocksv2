@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { createClient, LiveMap, LiveObject } from "@liveblocks/client";
 import { createRoomContext } from "@liveblocks/react";
 import Router from "next/router";

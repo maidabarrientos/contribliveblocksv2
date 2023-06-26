@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
@@ -13,7 +14,7 @@ export default function App({
   return (
     <>
       <Head>
-        <title>Starter Kit</title>
+        <title>ContribNetwork</title>
         <link href="/favicon.svg" rel="icon" type="image/svg" />
       </Head>
       <TooltipProvider>

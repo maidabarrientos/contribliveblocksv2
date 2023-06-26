@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import clsx from "clsx";
 import { GetServerSideProps } from "next";
 import { ComponentProps, ReactNode } from "react";
@@ -30,7 +31,7 @@ export default function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;app
+            Kickstart your collaborative&nbsp;domain using Contrib + LiveBlocks
           </h1>
           <p className={styles.heroLead}>
             Use the Liveblocks Starter Kit to build your document-based
