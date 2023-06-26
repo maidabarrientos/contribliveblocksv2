@@ -38,8 +38,13 @@ export default function Index() {
             About ContribNetwork
           </h1>
           <p className={styles.heroLead}>
-          Join the <a href="https://www.contrib.com">Contrib Network</a> and be part of a global community of entrepreneurs, developers, designers, marketers, and specialists. Contribute to high-growth companies and exciting opportunities worldwide. 
-          Discover the future of work and unleash your potential. Sign up now!
+           Join the <a href="https://www.contrib.com">Contrib Network</a> and connect with a diverse community of 
+          🌍 entrepreneurs, 👩‍💻 developers, 🎨 designers, 📈 marketers, and 🧑‍🔬 specialists. 
+          Contribute your skills and expertise to high-growth companies and
+           exciting opportunities worldwide. Discover the future of work and
+            unleash your potential. 💡 Sign up now to be part of the Contrib Network and embark
+             on an incredible journey of collaboration and innovation! 🌟
+
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -61,16 +66,16 @@ export default function Index() {
         </div>
       </Container>
       <Container className={styles.section}>
-        <h2 className={styles.sectionTitle}>Features</h2>
+        <h2 className={styles.sectionTitle}>🔥 Key Features of Contrib Network 🔥</h2>
         <div className={styles.featuresGrid}>
           <Feature
             description={
               <>
-                A collaborative whiteboard app with included share menu,
-                documents listing, users, groups, permissions, and more.
+               Connect and collaborate with a diverse network of entrepreneurs, developers, designers, marketers, 
+               and specialists from around the world. Unlock the power of global collaboration and expand your horizons.
               </>
             }
-            title="Liveblocks"
+            title="🤝 Collaborate with Global Talent"
           />
           <Feature
             description={
